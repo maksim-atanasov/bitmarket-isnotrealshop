@@ -12,13 +12,19 @@ html{
 }
 
 p{
-    color: green;
+    color: red;
     font-family: cursive;
     text-align: center;
     font-size: 30px;
-    position: fixed;
-    left: 400px;
+    position: absolute;
+    left: 50%;
     background-color: black;
     border-radius: 10px;
+    padding: 10px;
     
+}
+
+p:hover{
+    transport: scale(2);
+    transition: 1s linear;
 }
